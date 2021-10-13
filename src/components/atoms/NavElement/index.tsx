@@ -1,7 +1,7 @@
 import React from "react";
 
 // Importing styles
-import styles from "style.module.css";
+import styles from "./styles.module.css";
 
 const NavElement: React.FC<{ onClickHandler?: () => {}, link?: string }> = (
   props
