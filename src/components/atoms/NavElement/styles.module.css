@@ -1,3 +1,12 @@
-.NavElement {
+.navElement {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
   text-decoration: none;
 }

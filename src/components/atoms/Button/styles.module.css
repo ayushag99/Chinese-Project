@@ -1,6 +1,49 @@
 .button_primary {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 18px;
+
+  padding: 15px 20px 14px 24px;
+  background: transparent;
 }
 .button_secondary {
+  background: linear-gradient(180deg, #ffb845 0%, #da5d00 100%);
+  border-radius: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  border: none;
+  padding: 19px 37px;
 }
 .button_tertiary {
+  background: linear-gradient(0deg, #242d42, #242d42);
+  border-radius: 18px;
+  padding: 19px 69.5px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  border: none;
 }

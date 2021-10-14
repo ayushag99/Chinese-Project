@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.menu {
+  display: inline-flex;
+  margin-left: auto;
+}
+.menu__elements {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+}
+.menu__elements > * {
+  margin-right: 34.33px;
+}
+.menu__elements > *:last-child {
+  margin-right: 38.33px;
+}

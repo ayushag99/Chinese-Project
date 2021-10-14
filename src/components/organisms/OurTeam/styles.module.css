@@ -1,0 +1,45 @@
+.section {
+  background: #fff28d;
+  position: relative;
+  /* height: 100vh; */
+  padding: 128px 0px 128px 246px;
+}
+.container > *:nth-child(1) {
+  margin-bottom: 18px;
+}
+.container > *:nth-child(2) {
+  margin-bottom: 51px;
+}
+.container_para {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 189%;
+  /* or 34px */
+
+  color: #242d42;
+
+  opacity: 0.5;
+  width: 457.93px;
+  z-index: 1;
+}
+.image_container {
+  height: 250px;
+  display: inline-flex;
+  transition: all 0.3s linear;
+}
+.image_container > img {
+  height: 100%;
+  object-fit: contain;
+  margin-right: 22px;
+  z-index: 2;
+}
+
+.bg_graphics {
+  position: absolute;
+  top: 146px;
+  right: 0px;
+  width: 450px;
+  z-index: 0;
+}

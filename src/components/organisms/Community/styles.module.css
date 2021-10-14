@@ -1,0 +1,35 @@
+.section {
+  background: #6395ec;
+
+  /* height: 100vh; */
+  padding: 122.63px 181.67px;
+  position: relative;
+}
+.container {
+  width: 547px;
+}
+.container > *:nth-child(1) {
+  margin-bottom: 20px;
+}
+.container > *:nth-child(2) {
+  margin-bottom: 42px;
+}
+.container_para {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 189%;
+  /* or 34px */
+
+  color: #ffffff;
+}
+
+.bg_graphics {
+  position: absolute;
+  /* top: 0px; */
+  width: 689px;
+  object-fit: contain;
+  right: 0px;
+  bottom: 0px;
+}
